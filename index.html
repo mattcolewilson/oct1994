@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>OCT1994 — A Blair Witch Project Fanzine</title>
+    
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -19,35 +20,58 @@
 <meta name="twitter:card" content="summary_large_image">
  
 <style>
+    
 body {
 background-image: url("images/noise.png");
-  background-color: #C92B2A;
-  background-blend-mode: multiply;
   background-repeat: repeat;
-  margin: 0;
 }
     
-h1 {
-  font-family: archivo black, arial bold, sans-serif; letter-spacing: 1px; color: white; text-align: center; position:absolute; top: 25%; right: 10%;
-}
-    
-.heather{
-    position:fixed; left: 7%; bottom: -3%;
+p {font-family: arial, helvetica, sans-serif; font-weight: 900; font-size: 12pt; letter-spacing: 1px; color: black;
 }    
+    
+a {text-decoration: none; color: black;}
+    
+a:hover {color:#C92B2A;}
 
+.heather{
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+    }    
+    
+.logo {
+  display:flex;
+  justify-content:left;
+  align-items:center;
+  position:absolute; left: 13px; bottom: 10px;
+}
+    
+.nav {
+  display:flex;
+  justify-content:left;
+  align-items:center;
+  position:absolute; right: 18px; bottom: 10px;
+}
+
+        
 </style>
- 
+    
 </head>
+    
 <body>
 
+    
 <div class="heather">
-<img src="images/heather-clapboard.png" width="65%">
+<img src="images/heather-clapboard.gif" width="70%">
 </div>
-
-
-<h1><img src="stickman.svg"><br><br>A FANSITE FOR THE<br>
-BLAIR WITCH PROJECT<br>
-COMING SOON</h1>
+    
+<div class="logo">
+<img src=logo-r.svg> <p>OCT1994.COM</p></div>
+    
+    <div class="nav"><p><a href="/menu">✵</a></p>
+</div>
 
 </body>
 </html>
