@@ -23,23 +23,27 @@
 <style>
     
 body {
-background-image: url("images/noise.png");
+background-image: url("images/noise-black.png");
   background-repeat: repeat;}
     
-p {font-family: arial, helvetica, sans-serif; font-weight: 700; font-size: 8pt; letter-spacing: 1px; color: black;
+p {font-family: arial, helvetica, sans-serif; font-weight: 700; font-size: 8pt; letter-spacing: 1px; color: white;
 }    
     
-a {text-decoration: none; color: black;}
+a {text-decoration: none; color: white;}
     
 a:hover {color:#C92B2A;}
 
-.feat{
+    
+.heather{
   position: absolute;
-  top: 48%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  text-align: center;
+  bottom: 0; right: 5%;
     }    
+    
+.doc{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+    }        
     
 .logo {
   display:flex;
@@ -63,14 +67,18 @@ a:hover {color:#C92B2A;}
 <body>
 
     
-<div class="feat">
-<a href="/book.html"><img src="images/heather-clapboard.gif" width="75%"></a>
+<div class="heather">
+<img src="images/heather-w.png" width="825vw">
 </div>
     
-<div class="logo">
-<img src=logo-r.svg> <p><a href="/index.html">OCT1994.COM</a></p></div>
+<div class="doc">
+<a href="/book.html"><img src="images/documentary.png" width="420vw"></a>
+</div>          
     
-    <div class="nav"><p>NOT MOBILE FRIENDLY <a href="/menu">✵</a></p>
+<div class="logo">
+<img src=logo-r.svg> <p>OCT1994.COM</p></div>
+    
+<div class="nav"><p>NOT MOBILE FRIENDLY <a href="/menu">✵</a></p>
 </div>
 
 </body>
